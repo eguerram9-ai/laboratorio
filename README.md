@@ -32,9 +32,48 @@ En esta sección deben analizar el programa entregado.
 
 Responder:
 
-- ¿Qué partes del código pueden convertirse en métodos?
-- ¿Qué bloques de código se repiten?
-- ¿Qué responsabilidades pueden separarse?
+### ¿Qué partes del código pueden convertirse en métodos?
+
+En el programa original, varias secciones del método `main` pueden convertirse en métodos independientes, tales como:
+
+* Mostrar el menú de opciones.
+* Leer la opción del usuario.
+* Agregar estudiante.
+* Mostrar lista de estudiantes.
+* Calcular promedio de calificaciones.
+* Mostrar el estudiante con la calificación más alta.
+* Validar la entrada numérica del usuario.
+
+Estas partes realizan tareas específicas y pueden modularizarse para mejorar la estructura del programa.
+
+---
+
+### ¿Qué bloques de código se repiten?
+
+Se identificaron los siguientes patrones repetitivos:
+
+* Validaciones de listas vacías antes de realizar operaciones.
+* Recorridos de listas usando ciclos `for`.
+* Lectura de datos mediante `Scanner`.
+* Conversión de texto a números (`Integer.parseInt` y `Double.parseDouble`).
+* Estructura del menú dentro del bucle principal.
+
+La repetición de estos bloques hace que el método `main` sea más largo y menos legible.
+
+---
+
+### ¿Qué responsabilidades pueden separarse?
+
+El programa original mezcla múltiples responsabilidades dentro del `main`. Las principales que pueden separarse son:
+
+* Control del menú.
+* Gestión de estudiantes.
+* Cálculo de estadísticas.
+* Validación de entradas.
+* Interacción con el usuario.
+
+Separar estas responsabilidades permite aplicar el principio de **una sola responsabilidad por método**.
+
 
 Ejemplos de posibles tareas:
 
@@ -43,7 +82,16 @@ Ejemplos de posibles tareas:
 - Calcular promedio.
 - Mostrar estudiante con mayor calificación.
 
-Explicar por qué dividir estas tareas mejora el programa.
+### ¿Por qué dividir estas tareas mejora el programa?
+
+Dividir el código en métodos mejora el programa porque:
+
+* Reduce la complejidad del `main`.
+* Hace el código más organizado.
+* Facilita la reutilización de funciones.
+* Mejora la legibilidad.
+* Simplifica el mantenimiento.
+* Permite detectar errores con mayor facilidad.
 
 ---
 
