@@ -175,7 +175,7 @@ A continuación se muestra el programa en ejecución, destacando sus principales
 
 ### 5.1 Menú principal
 Al iniciar el programa, se muestra el menú con las opciones disponibles.  
-[![[Pasted image 20260303183834.png]]](https://github.com/eguerram9-ai/laboratorio/blob/29b50729a603fa4eed95086b9d6c9577c3d0465a/assets/Pasted%20image%2020260303183834.png)
+![image alt](https://github.com/eguerram9-ai/laboratorio/blob/29b50729a603fa4eed95086b9d6c9577c3d0465a/assets/Pasted%20image%2020260303183834.png)
 *El menú se presenta de forma clara y solicita una opción numérica.*
 
 ---
