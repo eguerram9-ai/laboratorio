@@ -176,6 +176,7 @@ A continuación se muestra el programa en ejecución, destacando sus principales
 ### 5.1 Menú principal
 Al iniciar el programa, se muestra el menú con las opciones disponibles.  
 ![image alt](https://github.com/eguerram9-ai/laboratorio/blob/29b50729a603fa4eed95086b9d6c9577c3d0465a/assets/Pasted%20image%2020260303183834.png)
+
 *El menú se presenta de forma clara y solicita una opción numérica.*
 
 ---
@@ -183,15 +184,15 @@ Al iniciar el programa, se muestra el menú con las opciones disponibles.
 ### 5.2 Agregar estudiante con validaciones
 **a) Validación de nombre vacío**  
 Si el usuario intenta ingresar un nombre vacío, el sistema lo rechaza y pide nuevamente el dato.  
-![[Pasted image 20260303184332.png]]
+![image alt](https://github.com/eguerram9-ai/laboratorio/blob/da25b522abba2bc2a4a4c1b82a3c7435ed892e06/assets/Pasted%20image%2020260303184332.png)
 
 **b) Validación de calificación no numérica**  
 Si se ingresa texto en lugar de número, el programa captura la excepción y solicita un valor válido.  
-![[Pasted image 20260303184737.png]]
+![image alt](https://github.com/eguerram9-ai/laboratorio/blob/da25b522abba2bc2a4a4c1b82a3c7435ed892e06/assets/Pasted%20image%2020260303184737.png)
 
 **c) Validación de rango de calificación**  
 La calificación debe estar entre 0 y 100; de lo contrario, se muestra un mensaje de error.  
-![[Pasted image 20260303185109.png]]
+![image alt](https://github.com/eguerram9-ai/laboratorio/blob/da25b522abba2bc2a4a4c1b82a3c7435ed892e06/assets/Pasted%20image%2020260303185109.png)
 
 
 
@@ -199,36 +200,37 @@ La calificación debe estar entre 0 y 100; de lo contrario, se muestra un mensaj
 
 ### 5.3 Listado de estudiantes
 Muestra todos los estudiantes registrados con sus calificaciones, numerados y formateados.  
-![[Pasted image 20260303185322.png]]
+![image alt](https://github.com/eguerram9-ai/laboratorio/blob/da25b522abba2bc2a4a4c1b82a3c7435ed892e06/assets/Pasted%20image%2020260303185322.png)
+
 ---
 
 ### 5.4 Cálculo de promedio
 Calcula el promedio de las calificaciones y lo muestra con dos decimales.  
-![[Pasted image 20260303185454.png]]
+![image alt](https://github.com/eguerram9-ai/laboratorio/blob/da25b522abba2bc2a4a4c1b82a3c7435ed892e06/assets/Pasted%20image%2020260303185454.png)
 
 ---
 
 ### 5.5 Mejor estudiante
 Identifica al estudiante con la calificación más alta y lo muestra junto con su nota.  
-![[Pasted image 20260303185540.png]]
+![image alt](https://github.com/eguerram9-ai/laboratorio/blob/da25b522abba2bc2a4a4c1b82a3c7435ed892e06/assets/Pasted%20image%2020260303185540.png)
 
 ---
 
 ### 5.6 Manejo de errores
 **a) Opción de menú inválida**  
 Si se ingresa un número fuera del rango 1-5, el programa lo indica y vuelve a pedir la opción.  
-![[Pasted image 20260303185846.png]]
+![image alt](https://github.com/eguerram9-ai/laboratorio/blob/da25b522abba2bc2a4a4c1b82a3c7435ed892e06/assets/Pasted%20image%2020260303185846.png)
 
 **b) Listas vacías**  
 Si se intenta mostrar estudiantes, calcular promedio o buscar el mejor cuando no hay datos, se informa adecuadamente.  
-![[Pasted image 20260303190025.png]]
+![image alt](https://github.com/eguerram9-ai/laboratorio/blob/da25b522abba2bc2a4a4c1b82a3c7435ed892e06/assets/Pasted%20image%2020260303190025.png)
 
-![[Pasted image 20260303190123.png]]
+![image alt](https://github.com/eguerram9-ai/laboratorio/blob/da25b522abba2bc2a4a4c1b82a3c7435ed892e06/assets/Pasted%20image%2020260303190123.png)
 
 ---
 
 ### 5.7 Salida del programa
 Al elegir la opción 5, el programa se despide y termina.  
-![[Pasted image 20260303190201.png]]
+![image alt](https://github.com/eguerram9-ai/laboratorio/blob/da25b522abba2bc2a4a4c1b82a3c7435ed892e06/assets/Pasted%20image%2020260303190201.png)
 
 ---
