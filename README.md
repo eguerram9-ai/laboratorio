@@ -164,3 +164,72 @@ No es recomendable porque aumenta la **posibilidad de errores inesperados**, ya 
 ## 3️⃣ ¿Cómo mejora la modularización la legibilidad del código?
 
 La modularización mejora la legibilidad porque divide el programa en partes pequeñas, ordenadas y con responsabilidades claras. Cada método describe exactamente qué hace, lo que permite entender el flujo del programa rápidamente. Esto hace que el código sea más limpio, estructurado y fácil de mantener en el tiempo.
+
+
+
+## 📸 Parte 5 – Demostración del Funcionamiento
+
+A continuación se muestra el programa en ejecución, destacando sus principales características y validaciones.  
+*Las imágenes deben almacenarse en una carpeta `screenshots` dentro del repositorio y enlazarse con rutas relativas (ej. `screenshots/menu.png`).*
+
+---
+
+### 5.1 Menú principal
+Al iniciar el programa, se muestra el menú con las opciones disponibles.  
+![[Pasted image 20260303183834.png]]
+*El menú se presenta de forma clara y solicita una opción numérica.*
+
+---
+
+### 5.2 Agregar estudiante con validaciones
+**a) Validación de nombre vacío**  
+Si el usuario intenta ingresar un nombre vacío, el sistema lo rechaza y pide nuevamente el dato.  
+![[Pasted image 20260303184332.png]]
+
+**b) Validación de calificación no numérica**  
+Si se ingresa texto en lugar de número, el programa captura la excepción y solicita un valor válido.  
+![[Pasted image 20260303184737.png]]
+
+**c) Validación de rango de calificación**  
+La calificación debe estar entre 0 y 100; de lo contrario, se muestra un mensaje de error.  
+![[Pasted image 20260303185109.png]]
+
+
+
+---
+
+### 5.3 Listado de estudiantes
+Muestra todos los estudiantes registrados con sus calificaciones, numerados y formateados.  
+![[Pasted image 20260303185322.png]]
+---
+
+### 5.4 Cálculo de promedio
+Calcula el promedio de las calificaciones y lo muestra con dos decimales.  
+![[Pasted image 20260303185454.png]]
+
+---
+
+### 5.5 Mejor estudiante
+Identifica al estudiante con la calificación más alta y lo muestra junto con su nota.  
+![[Pasted image 20260303185540.png]]
+
+---
+
+### 5.6 Manejo de errores
+**a) Opción de menú inválida**  
+Si se ingresa un número fuera del rango 1-5, el programa lo indica y vuelve a pedir la opción.  
+![[Pasted image 20260303185846.png]]
+
+**b) Listas vacías**  
+Si se intenta mostrar estudiantes, calcular promedio o buscar el mejor cuando no hay datos, se informa adecuadamente.  
+![[Pasted image 20260303190025.png]]
+
+![[Pasted image 20260303190123.png]]
+
+---
+
+### 5.7 Salida del programa
+Al elegir la opción 5, el programa se despide y termina.  
+![[Pasted image 20260303190201.png]]
+
+---
